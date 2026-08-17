@@ -44,7 +44,7 @@ from anthropic import Anthropic
 
 # Get tokens from environment variables (Railway)
 TG_BOT_TOKEN = os.environ.get('TG_BOT_TOKEN', "8411649204:AAGPnQhIMKKB1rhfoSgGz2ZBtBokNZX1eH4")
-AGENTROUTER_API_KEY = os.environ.get('AGENTROUTER_API_KEY', "YOUR_AGENTROUTER_API_KEY_HERE")
+AGENTROUTER_API_KEY = os.environ.get('AGENTROUTER_API_KEY', "sk-9lwRAOy7RW5xAiNbIGMXWWZkuRRLBs1XQFSPWHW07e0qr1tM")
 AGENTROUTER_BASE_URL = "https://agentrouter.org"
 
 AGENTROUTER_MODELS = [
