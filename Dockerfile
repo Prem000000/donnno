@@ -2,9 +2,11 @@ FROM python:3.11-slim
 
 WORKDIR /app
 
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+# Copy the bot file
+COPY dcg.py .
 
-COPY . .
+# Install dependencies directly
+RUN pip install python-telegram-bot discord.py-self anthropic httpx
 
+# Run the bot
 CMD ["python", "dcg.py"]
