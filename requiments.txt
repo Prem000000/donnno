@@ -1,4 +1,0 @@
-python-telegram-bot>=20.0
-discord.py-self>=2.0
-anthropic>=0.18.0
-httpx>=0.24.0
