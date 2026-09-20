@@ -37,8 +37,8 @@ if sys.platform == "win32":
     sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
 # ============== CONFIG ==============
-BOT_TOKEN = "8470146162:AAERS3_xwrrRyaboG06BsmaQaTym9VU2ix8"
-OWNER_IDS = {2095029151}
+BOT_TOKEN = "8800949076:AAHnyQb6YYbCs98KZyl7uhDfsv2jdHlgFEo"
+OWNER_IDS = {8337013809}
 BOT_NAME = "⚡ Auto-OTP Bot"
 DIVIDER = "━━━━━━━━━━━━━━━"
 NAME_API = "https://sarkariupdate.online/osint/APIX.php?api=num_api&q="
